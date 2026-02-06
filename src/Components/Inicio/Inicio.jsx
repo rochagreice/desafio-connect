@@ -1,5 +1,6 @@
 import styles from "./Inicio.module.scss";
 import ImgInicial from "../../assets/img-tela-inicial.png"
+
 function Inicio() {
   return (
     <section className={styles.containerTelaInicial}>
