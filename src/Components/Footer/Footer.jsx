@@ -11,11 +11,12 @@ function Footer() {
         <h2>Connect</h2>
       </div>
       <p>© 2026 Vai na Web & Empower. Todos os direitos reservados. Projeto destinado exclusivamente a fins educativos.</p>
-      <nav>
+      <nav className={styles.navFooter}>
         <img src={Whatsapp} alt="Logo do whatsapp" />
         <img src={Instagram} alt="Logo do instagram" />
         <img src={Linkedin} alt="Logo do linkedin" />
       </nav>
+      
     </footer>
   );
 }
